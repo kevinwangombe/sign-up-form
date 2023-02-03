@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+/* Some css var */
 :root {
   --red: hsl(0, 100%, 74%);
   --green: hsl(154, 59%, 51%);
@@ -32,6 +33,8 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+
+/* body styling area */
 
 .main-container {
   margin: 0 auto;
@@ -87,6 +90,9 @@ body::-webkit-scrollbar {
 .sales-btn span {
   font-weight: 400;
 }
+
+
+/* Form styling area */
 .main-form {
   display: flex;
   flex-direction: column;
@@ -194,7 +200,7 @@ input:focus-visible {
   }
 }
 
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 800px) {
   body {
     background-image: url("images/bg-intro-mobile.png");
   }
